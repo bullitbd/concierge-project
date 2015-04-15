@@ -1,0 +1,23 @@
+Explore:
+<script src="http://videos.explore.org/player.js?embedCode=B1cXh5MTqkKzg-Jxm0QacVw82dbjdjPw&height=360&autoplay=1&video_pcode=xudGk6ABqzToWsKPU8Xi-YhAhUk3&width=640&deepLinkEmbedCode=B1cXh5MTqkKzg-Jxm0QacVw82dbjdjPw"></script>
+
+Nasa:
+<script type="text/javascript" src="http://cdn-akm.vmixcore.com/vmixcore/js?auto_play=0&cc_default_off=1&player_name=uvp&width=512&height=332&player_id=1aa0b90d7d31305a75d7fa03bc403f5a&t=V0p73zsU3yWq0CGvPxuYE-u6hr3_TwpzIz"></script>
+
+youtube:
+<iframe width="560" height="349" src="http://www.youtube.com/embed/gxMS2cSsNJo" frameborder="0" allowfullscreen></iframe>
+
+vimeo:
+<iframe src="http://player.vimeo.com/video/25186640?title=0&amp;byline=0&amp;portrait=0" width="400" height="225" frameborder="0"></iframe><p><a href="http:> on <a href="http://vim//vimeo.com/25186640">RESONANCE</a> from <a href="http://vimeo.com/resonancefilm">Resonance</aeo.com">Vimeo</a>.</p>
+
+nationalGeo:
+<embed src="http://images.nationalgeographic.com/wpf/sites/video/swf/ngplayer_syndicated.swf" flashVars="slug=antarctica-emperor-penguins-huddle-vin&img=http://video.nationalgeographic.com/exposure/core_media/ngphoto/image/36546_0_610x343.jpg&vtitle=Penguins%20Do%20the%20Wave%20to%20Keep%20Warm&caption=%3Cp%3EJune%2015,%202011%E2%80%94New,%20sped-up%20video%20of%20an%20emperor%20penguin%20huddle%20in%20Antarctica%20shows%20the%20group%20takes%20small%20steps,%20creating%20a%20wave.%20Researchers%20say%20the%20undulations%20ensure%20each%20penguin%20a%20turn%20in%20the%20middle%20of%20the%20cluster,%20which%20helps%20the%20birds%20keep%20warm.%3C/p%3E&permalink=http://video.nationalgeographic.com/video/player/news/animals-news/antarctica-emperor-penguins-huddle-vin.html&share=true" name="flashObj" width="460" height="321" seamlesstabbing="false" allowfullscreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
+smithsonian:
+<script src="http://player.ooyala.com/player.js?embedCode=owYTJnMjp9k-4Imhm-s7bdELYo1OgR9X&height=334&deepLinkEmbedCode=owYTJnMjp9k-4Imhm-s7bdELYo1OgR9X&autoplay=1&width=610&video_pcode=VmM2U6ccX_RqI0rIzEgAxHoRsgRL"></script>
+
+
+<a href="http://play.converse.com/play/blog/?p=2794">Coastal Carnage 2010 » Converse</a>
+
+TED:
+<object width="446" height="326"><param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"></param><param name="bgColor" value="#ffffff"></param> <param name="flashvars" value="vu=http://video.ted.com/talks/dynamic/DrHawaAbdiandDrDeqoMohamed_2010W-medium.flv&su=http://images.ted.com/images/ted/tedindex/embed-posters/Dr_Hawa_and_MohamedAbdi-2010W.embed_thumbnail.jpg&vw=432&vh=240&ap=0&ti=1071&lang=eng&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mother_and_daughter_doctor_heroes_hawa_abdi_deqo_mohame;year=2010;theme=women_reshaping_the_world;theme=medicine_without_borders;theme=celebrating_tedwomen;event=TEDWomen;tag=Global+Issues;tag=Science;tag=community;tag=health;tag=medicine;tag=politics;tag=women;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" /><embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="446" height="326" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talks/dynamic/DrHawaAbdiandDrDeqoMohamed_2010W-medium.flv&su=http://images.ted.com/images/ted/tedindex/embed-posters/Dr_Hawa_and_MohamedAbdi-2010W.embed_thumbnail.jpg&vw=432&vh=240&ap=0&ti=1071&lang=eng&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mother_and_daughter_doctor_heroes_hawa_abdi_deqo_mohame;year=2010;theme=women_reshaping_the_world;theme=medicine_without_borders;theme=celebrating_tedwomen;event=TEDWomen;tag=Global+Issues;tag=Science;tag=community;tag=health;tag=medicine;tag=politics;tag=women;"></embed></object>

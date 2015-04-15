@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Concierge Add Media Help</title>
+    <style type="text/css">
+    body  {
+    margin:5px 0 0 10px;
+    height:auto;
+    width:440px;
+    text-align:justify;
+    font-family:trebuchet MS;
+    font-size:.8em;
+    }
+    p {
+    line-height:1.3em;
+    margin:5px;
+    }
+
+    .heading2 {
+    font-size:1em;
+    font-weight:bold;
+margin-top:15px;
+    }
+    .mainHeader {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.1em;
+    padding:5px 0;
+    }
+    .red {
+    text-transform:lowercase;
+    font-size:.9em;
+    font-style:italic;
+    color:Red;
+}
+.future {
+color:#aaaaaa;
+}
+ul {
+margin-top:5px;
+}
+    </style>
+</head>
+<body>
+<div>
+<p class="mainHeader">Concierge Add Media Help</p>
+<p class="heading2">1. General Use</p>
+<p>The add media dialog allows "adding" external content to the Concierge Media Catalog, by referencing it's URL or Embed information.  It automatically produces and saves thumbnails for stored image <span class="future">[web pages, documents, html]</span> URLs, and provides for the entry of an image URL to be processed as a thumbnail for any stored Video code.  A variety of identifying information is collected and, when the content is "built", a link is assembled which opens the associated media in a javascript pop-up window (Floatbox, 'FB') when clicked.
+</p>
+<p class="heading2">Action Buttons</p>
+<p>Please see the tooltips which appear when hovering your mouse over the buttons.
+</p>
+<p class="heading2">2. Embed Code<span class="red">&nbsp;&nbsp;required</span></p>
+<p>This field takes media information, typically copied from a video site's "embed" code, image or other content url.  This information, using the <b>Media Type</b> information is parsed in the background for appropriate information and used in the final link building process  
+</p>
+<p class="heading2">3. Media Type<span class="red">&nbsp;&nbsp;required</span></p>
+<p>In order for the parse engine to function properly, this data must be correctly identified by the following types:
+<ul>
+<li>Video: for VIDEO embed codes copied from video or partner sites. </li>
+<li><span class="future">R21VIDEO: used for inclusion of site content references in the catalog.</span></li>
+<li>Image: used with standard IMAGE urls; these begin with http... and end with common image file extensions (jpg, png, etc.).
+<li><span class="future">Document:</span></li>
+<li><span class="future">Web Site:</span></li>
+<li><span class="future">Web Page:</span></li>
+<li><span class="future">HTML:</span></li>
+</ul>  
+</p>
+<p class="heading2">4. Submitter<span class="red">&nbsp;&nbsp;required</span></p>
+<p>Simply, who is entering the content.  Please identify yourself so that someone else may ask you about your submission.
+</p>
+<p class="heading2">5. Owner / Campaign<span class="red">&nbsp;&nbsp;required</span></p>
+<p>This is a two-part control.  <b>Owner</b> is an organization name - either R21 or one of its sponsors, partners, etc, as indicated in the <b>Owner Type</b> field.  <b>Campaign</b> is the particular promotion of which the content entry is a part.  The <b>Owner Type</b> field is informational and not available for input. <i>More to come here...</i>
+</p>
+<p class="heading2">6. Modify Size To:</p>
+<p>This field defaults to 100%, meaning no change in content dimensions from the original.  This value may be changed as appropriate, and each subsequent "build" request will allow a preview at the new size, as a % of the original display.  This can be changed and re-build as often as necessary to arrive at the desired presentation size.</p>
+<p>Keep in mind that this value will typically fall within the maximum range of approximately 40 to 400 (percent).  Original resolution and desired effect will dictate an acceptable value.  <i>More to come here...</i>
+</p>
+<p class="heading2">7. Title<span class="red">&nbsp;&nbsp;required</span></p>
+<p>The title appears in the center of the top border around the content.  Unless specific circumstances dictate, a title is manditory, as it is the only required visual descriptor of the content, and is the default for both the accessible "alt" content and the tooltip for the link.  If absolutely necessary, this field will accept a blank entry (at least one "space" character).
+</p>
+<p class="heading2">8. 2nd Caption</p>
+<p>The 2nd Caption appears in the center of the lower border.  It's use is typically to act as a category title for a group of images, or to impart more information to a single piece of content.</p>
+<p class="heading2">9. Keywords</p>
+<p>Use of keyword field...
+<p class="heading2">10. Description<span class="red">&nbsp;&nbsp;required</span></p>
+<p>The description field is mandatory, and serves as one of the primary searchable fields in the catalog.  Typically, this might be copied and pasted from the site where the media lives, however, any intentionally helpful descriptive text can be entered here.
+</div>
+</body>
+</html>

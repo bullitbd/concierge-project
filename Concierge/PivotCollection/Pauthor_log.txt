@@ -1,0 +1,16 @@
+[2011-10-04T09:39:48:  Message] Writing Pivot collection to Pivot_Concierge_Content.cxml
+[2011-10-04T09:39:48:  Message] Writing header information
+[2011-10-04T09:39:48:  Message] Writing items
+[2011-10-04T09:39:48: Progress] Finished 10 items
+[2011-10-04T09:39:48: Progress] Finished 20 items
+[2011-10-04T09:39:48: Progress] Finished 30 items
+[2011-10-04T09:39:48: Progress] Finished 40 items
+[2011-10-04T09:39:48: Progress] Finished 50 items
+[2011-10-04T09:39:48: Progress] Finished 60 items
+[2011-10-04T09:39:48: Progress] Finished 70 items
+[2011-10-04T09:39:48: Progress] Finished 80 items
+[2011-10-04T09:39:48: Progress] Finished 90 items
+[2011-10-04T09:39:48: Progress] Finishing DeepZoom conversions (2 remaining)
+[2011-10-04T09:39:50: Progress] Stopping threads (10 remaining)
+[2011-10-04T09:39:51:  Message] Writing footer
+[2011-10-04T09:39:51: Progress] Finished in 00:00:03.481

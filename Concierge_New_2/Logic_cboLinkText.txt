@@ -1,0 +1,15 @@
+Link code:
+
+cboLinkText behavior:
+if btnThumb is checked, cboLinkText is disabled/grayed
+if btnButton is checked, cboLinkText is select box with image icon.  Can be populated from ds - see: http://www.obout.com/combobox/aspnet_icons_items.aspx OR template - see: http://www.obout.com/combobox/aspnet_icons_items.aspx
+if btnText is checked, cboLinkText is simple text box.
+
+if btnButton, cboLinkText.SelectedIndex gives ID of button URL:  /buttons/button4.png.
+list is populated from ds with name, image
+
+if btnText, cboLinkText.SelectedText is simmply the <a>text</a>.
+
+Case MediaType
+	Video, btnThumb is checked
+	Image, btnThumb is checked

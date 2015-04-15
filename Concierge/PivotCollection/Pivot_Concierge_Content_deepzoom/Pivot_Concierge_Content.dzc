@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection MaxLevel="7" TileSize="256" Format="png" NextItemId="49" ServerFormat="Default" xmlns="http://schemas.microsoft.com/deepzoom/2009">
+  <Items>
+    <I Id="0" N="0" Source="howtofly_thumb.dzi">
+      <Size Width="90" Height="60" />
+    </I>
+    <I Id="1" N="1" Source="davis_funny_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="2" N="2" Source="davis_motion_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="3" N="3" Source="davis_expressions_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="4" N="4" Source="davis_sounds_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="5" N="5" Source="www_nasa_gov_images_content_491158main_tethys0101020-4x3_946-71011010911261428.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="6" N="6" Source="video_thumb.dzi">
+      <Size Width="60" Height="49" />
+    </I>
+    <I Id="7" N="7" Source="er_horses_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="8" N="8" Source="er_eagles_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="9" N="9" Source="er_dinos_thumb.dzi">
+      <Size Width="90" Height="67" />
+    </I>
+    <I Id="10" N="10" Source="silverlight_techmediaconsultant_com_images_R21EY_340211032611052517.dzi">
+      <Size Width="80" Height="80" />
+    </I>
+    <I Id="11" N="11" Source="concierge_rocket21_com_images_catalog_Tutenstein11041010475071.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="12" N="12" Source="concierge_rocket21_com_images_catalog_Tutenstein11041010483320.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="13" N="13" Source="concierge_rocket21_com_images_catalog_macys_tappers11041104042896.dzi">
+      <Size Width="80" Height="57" />
+    </I>
+    <I Id="14" N="14" Source="concierge_rocket21_com_assets_cb_250x250_gps11041710575904.dzi">
+      <Size Width="80" Height="80" />
+    </I>
+    <I Id="15" N="15" Source="syndication_visualthesaurus_com_ddc_large_return11042009021537.dzi">
+      <Size Width="81" Height="41" />
+    </I>
+    <I Id="16" N="16" Source="concierge_rocket21_com_images_x_NewHomePage11061301392466.dzi">
+      <Size Width="80" Height="68" />
+    </I>
+    <I Id="17" N="17" Source="r21_production_s3_amazonaws_com_assets_2281_original_IMG_317711061302560634.dzi">
+      <Size Width="80" Height="79" />
+    </I>
+    <I Id="18" N="18" Source="static_guim_co_uk_sys-images_Guardian_Pix_pictures_2010_2_15_1266250285203_Thomas-Heatherwick-eeds-c-00111061604522376.dzi">
+      <Size Width="80" Height="48" />
+    </I>
+    <I Id="19" N="19" Source="images_ted_com_images_ted_1c3f327a456360b2846b9ee8f15788ef99f93dd8_113x8511061605335332.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="20" N="20" Source="i2_ytimg_com_vi_I6M54p8VQFA_default11062312335546.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="21" N="21" Source="i3_ytimg_com_vi_2OxWD85Ngz4_default11072106175302.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="22" N="22" Source="b_vimeocdn_com_ts_925_122_92512205_10011072202081068.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="23" N="23" Source="b_vimeocdn_com_ts_177_089_177089735_10011072202255530.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="24" N="24" Source="i1_ytimg_com_vi_luffXvfC_A4_default11072502570557.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="25" N="25" Source="i2_ytimg_com_vi_1DoWdHOtlrk_default11072801405131.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="26" N="26" Source="b_vimeocdn_com_ts_905_009_9050093_10011081210223080.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="27" N="27" Source="i3_ytimg_com_vi_BRmdwsH2N_M_default11081412013299.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="28" N="28" Source="i1_ytimg_com_vi_0bt9xBuGWgw_default11081911171013.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="29" N="29" Source="lh6_ggpht_com__dlkAw43cLC0_SSvsIY4takI_AAAAAAAABCI_OiWYvtQe72I_s800_Upside-down-house-Poland-111082610483449.dzi">
+      <Size Width="80" Height="53" />
+    </I>
+    <I Id="30" N="30" Source="i3_ytimg_com_vi_Fg_JcKSHUtQ_default11090105540919.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="31" N="31" Source="i1_ytimg_com_vi_LiH_L5RD_70_default11090910401928.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="32" N="32" Source="img_youtube_com_vi_sTZrMNPhQAc_211091002284345.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="33" N="33" Source="i2_ytimg_com_vi_91rpRKb6UhQ_default11091111332129.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="34" N="34" Source="i2_ytimg_com_vi_Qv1ajY47FVQ_default11091402235671.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="35" N="35" Source="i2_ytimg_com_vi_qAN5nf04L2s_default11091609484452.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="36" N="36" Source="www_superfutures_com_dare2dream_images_dreamBig_home_img11092307040419.dzi">
+      <Size Width="80" Height="58" />
+    </I>
+    <I Id="37" N="37" Source="farm6_static_flickr_com_5248_5327364821_2ca790fd07_s11092909551019.dzi">
+      <Size Width="80" Height="80" />
+    </I>
+    <I Id="38" N="38" Source="i1_ytimg_com_vi_LXO-jKksQkM_default11100212030976.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="39" N="39" Source="concierge_rocket21_com_thumbs_DSN_Logo11100502595299.dzi">
+      <Size Width="80" Height="67" />
+    </I>
+    <I Id="40" N="40" Source="r21concierge_s3_amazonaws_com_images_thumbs_DSNLogo_lg11100503200774.dzi">
+      <Size Width="80" Height="67" />
+    </I>
+    <I Id="41" N="41" Source="i4_ytimg_com_vi_3XCUnDzY5EE_default11100507040834.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="42" N="42" Source="i2_ytimg_com_vi_1lLkEH7vuK0_default11100610391454.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="43" N="43" Source="i2_ytimg_com_vi_qv-kCtMCFCc_default11100602012498.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="44" N="44" Source="i2_ytimg_com_vi_qGPc9RLSW1U_default11100807181830.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="45" N="45" Source="i1_ytimg_com_vi_H_Xo9i9OcXk_default11100907125489.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="46" N="46" Source="i1_ytimg_com_vi_HAfCoebOImU_default11101010530725.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="47" N="47" Source="i2_ytimg_com_vi_Ejr-f0ao6W4_default11101106411123.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+    <I Id="48" N="48" Source="i2_ytimg_com_vi_uWhMOLe2jBM_default11101309064339.dzi">
+      <Size Width="80" Height="60" />
+    </I>
+  </Items>
+</Collection>

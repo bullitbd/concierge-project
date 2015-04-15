@@ -1,0 +1,56 @@
+GENERAL USE  "http://dev-concierge.rocket21.com/catalog_jgbd.aspx"
+//First Pass:
+>> Application.on_load;
+	>btnSave.disable;
+	>btnMesg.disable;
+	>pnlCustom.display = none;
+
+User
+	.finds media on web;
+	.copies embed code or link location as appropriate for Media Type;
+	.opens Catalog_New from menu;
+	.fills in appropriate information;
+	.press CUSTOM button (or not); // makes pnlCustom visible 
+	.fills in any wanted info in panel made visible by js btnCustom_on_click event;
+	.press OK (or not) on popup;
+	.Chooses // On load, SAVE and MESSAGE buttons hidden, no LitPreview yet ;
+		.press CUSTOM button;
+			>> unhides custom fields '- can fill in, press ok (or not)	
+		.press MENU button;
+			>> msgbox ("are you sure you want to leave this form?  You will lose all data", YesNo)
+				>if yes then Application show default.aspx;
+		.press SUBMIT button;
+			>> Application btnSubmit_on_click routine; // each time the SUBMIT button is pressed, a new fb string is created;
+				>validates required fields;
+				>posts back all fields;
+				>runs parse, assemble and makeMovie / makeThumb routines as appropriate;
+				>returns page with floatbox string in LitPreview;
+//Subsequent to first pass:
+	.Chooses;
+		.press litPreview; // launches fbpopup 
+			>> Application.shows_floatbox;
+				>shows floatboxed content in fbpopup;
+				>enables btnSave and btnMsg
+		//views and closes fb display
+				>//hook the abov with afterBoxEnd:somefunction() in fbPageOptions and
+				//somefunction() {btnSave.enable; btnMsg.enable;
+				 //allows save/Message AFTER preview closes - easier script
+		.to change information in any field; //including CUSTOM fields as above
+								
+		.press SAVE button
+			>> Application btnSave_on_click routine;  //runs SUBMIT routines and saves to catalog;
+				>call Proc btnSubmit_on_click;
+				>call Proc save_to_catalog;
+				>return message 'saved...ID ...'
+		.press MESSAGE button
+			>> Application btnSave_on_click routine; //runs SUBMIT routines and saves to catalog and opens/populates home.aspx in target="_blank";
+				>call Proc btnSubmit_on_click;
+				>call Proc save_to_catalog;
+				>call Proc send_message; 
+				>return message 'saved...ID ...'
+		.press MENU button
+			//save as above
+		.press CUSTOM button
+			//save s above
+					
+ 

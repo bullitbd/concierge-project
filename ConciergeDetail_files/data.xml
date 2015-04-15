@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="32" UniqueID="{92DAF3D3-63A9-4967-9E5D-233BD655982A}" Name="Sheet.32" NameU="Sheet.32">
+					<XForm>
+						<PinX Unit="IN">2.180000000000001</PinX>
+						<PinY Unit="IN">7.700000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{1283BFFF-7526-42B0-A725-12E8F837AFCD}" Name="Sheet.5" NameU="Sheet.5">
+					<XForm>
+						<PinX Unit="IN">3.300000000000000</PinX>
+						<PinY Unit="IN">6.070063694267516</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{7409C7AA-1057-47D8-B1C8-1EFB87109C18}" Name="Rectangle" NameU="Rectangle" Master="4">
+					<XForm>
+						<PinX Unit="IN">3.300000000000000</PinX>
+						<PinY Unit="IN">6.070063694267516</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{C427B7BF-CCCA-456E-885F-D0B6DD3E8AFE}" Name="Sheet.7" NameU="Sheet.7">
+					<XForm>
+						<PinX Unit="IN">8.400000000000002</PinX>
+						<PinY Unit="IN">6.180253025302530</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{34DE64AA-A97D-4D90-83B4-1099EFDA1E2A}" Name="Rectangle" NameU="Rectangle" Master="4">
+					<XForm>
+						<PinX Unit="IN">8.400000000000002</PinX>
+						<PinY Unit="IN">6.178679867986799</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{1816B5A9-EF89-4123-906B-E9477ABA997B}" Name="Rectangle.6" NameU="Rectangle.6" Master="4">
+					<XForm>
+						<PinX Unit="IN">8.400000000000002</PinX>
+						<PinY Unit="IN">6.178679867986800</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{5F2CCD7D-F194-473A-B630-82941BDFC237}" Name="Rectangle.26" NameU="Rectangle.26" Master="4">
+					<Text>Doc Upload
+WS Call</Text>
+					<XForm>
+						<PinX Unit="IN">4.240000000000000</PinX>
+						<PinY Unit="IN">7.240000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{719B9E0F-9952-4493-A6C0-11145AF50FB2}" Name="Rectangle" NameU="Rectangle" Master="4">
+					<Text>Video Uploader
+WS Call</Text>
+					<XForm>
+						<PinX Unit="IN">5.000000000000001</PinX>
+						<PinY Unit="IN">7.449999999999999</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{564E4FF5-6331-4597-BE91-58F71549DB26}" Name="Sheet.10" NameU="Sheet.10">
+					<XForm>
+						<PinX Unit="IN">8.360000000000003</PinX>
+						<PinY Unit="IN">1.466562499999999</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{A5DA3FDC-2261-4033-93D2-5CE6EA0CE156}" Name="Sheet.9" NameU="Sheet.9">
+					<XForm>
+						<PinX Unit="IN">6.979999999999999</PinX>
+						<PinY Unit="IN">1.880937500000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{43AB5373-3BE1-4969-8DF9-C5F8744769D7}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="IN">5.754999999999996</PinX>
+						<PinY Unit="IN">2.279281249999998</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{5EDA8D88-9A27-4418-9CF8-9C2DA7D20868}" Name="Rectangle.12" NameU="Rectangle.12" Master="4">
+					<Text>Browser
+Send To...</Text>
+					<XForm>
+						<PinX Unit="IN">1.700000000000000</PinX>
+						<PinY Unit="IN">7.450000000000002</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{29A1FF29-CF6B-4CB0-8204-6393A6FD8AF6}" Name="Line-curve connector" NameU="Line-curve connector" Master="5">
+					<XForm>
+						<PinX Unit="IN">5.100000000000001</PinX>
+						<PinY Unit="IN">6.800000000000000</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="14" UniqueID="{BAF429D1-3FB4-49F5-A7F7-171E9DBE8BEA}" Name="Line-curve connector.14" NameU="Line-curve connector.14" Master="5">
+					<XForm>
+						<PinX Unit="IN">1.700000000000000</PinX>
+						<PinY Unit="IN">6.800000000000001</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="15" UniqueID="{B779FE7D-57EB-4FE5-B052-E9A526E3F373}" Name="Line-curve connector.15" NameU="Line-curve connector.15" Master="5">
+					<XForm>
+						<PinX Unit="IN">6.264719471947196</PinX>
+						<PinY Unit="IN">6.264339933993400</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="16" UniqueID="{7DDF4AE4-51C9-4F82-AE72-3DD22C3376B9}" Name="Line-curve connector.16" NameU="Line-curve connector.16" Master="5">
+					<XForm>
+						<PinX Unit="IN">7.100000000000000</PinX>
+						<PinY Unit="IN">5.785031847133758</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="17" UniqueID="{6BDAD3E3-9182-4A87-B645-AB02EF99C4AB}" Name="Rectangle.17" NameU="Rectangle.17" Master="4">
+					<Text>Independent
+Page Script</Text>
+					<XForm>
+						<PinX Unit="IN">4.540000000000000</PinX>
+						<PinY Unit="IN">4.236666666666666</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{146AF3EB-53B1-4EDE-8904-74E6D0DBF8D5}" Name="Sheet.18" NameU="Sheet.18">
+					<XForm>
+						<PinX Unit="IN">8.489999999999998</PinX>
+						<PinY Unit="IN">4.100808625336927</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{081B1EE9-0663-497E-B311-6B3DF63A7A63}" Name="Line-curve connector.19" NameU="Line-curve connector.19" Master="5">
+					<XForm>
+						<PinX Unit="IN">9.100000000000001</PinX>
+						<PinY Unit="IN">5.150000000000000</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="20" UniqueID="{AD9C7F5C-20F3-4B41-BCD3-1E75869AF6B0}" Name="Line-curve connector.20" NameU="Line-curve connector.20" Master="5">
+					<Text>Link information
+Session Vars (ID)</Text>
+					<XForm>
+						<PinX Unit="IN">6.555000000000001</PinX>
+						<PinY Unit="IN">4.148333333333333</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="21" UniqueID="{EEE6F65D-AE55-4BAD-BC68-C793DB2D7F4F}" Name="Line-curve connector.21" NameU="Line-curve connector.21" Master="5">
+					<XForm>
+						<PinX Unit="IN">4.389999999999999</PinX>
+						<PinY Unit="IN">3.204156250000001</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="22" UniqueID="{D232CBBC-AC8D-4F86-96FE-AB271AE0E029}" Name="Rectangle.22" NameU="Rectangle.22" Master="4">
+					<XForm>
+						<PinX Unit="IN">8.539999999999999</PinX>
+						<PinY Unit="IN">4.100000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{420730BF-BEDB-4889-94EF-E8B9B0C986E5}" Name="Sheet.23" NameU="Sheet.23">
+					<Text>Page interaction</Text>
+					<XForm>
+						<PinX Unit="IN">8.580000000000002</PinX>
+						<PinY Unit="IN">3.610000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{00098132-4974-4F8E-B5C6-E9C8BF341690}" Name="Rectangle.25" NameU="Rectangle.25" Master="4">
+					<Text>Axax Processes
+(Track, vote, comment)</Text>
+					<XForm>
+						<PinX Unit="IN">2.190000000000000</PinX>
+						<PinY Unit="IN">4.251666666666665</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{70493CE1-2647-4BD6-8FC1-759EBAE64126}" Name="Line-curve connector.27" NameU="Line-curve connector.27" Master="5">
+					<XForm>
+						<PinX Unit="IN">3.365000000000000</PinX>
+						<PinY Unit="IN">4.244166666666666</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="24" UniqueID="{0F75A118-AD65-4C57-9AAD-808DF04B6CF5}" Name="Sheet.24" NameU="Sheet.24">
+					<XForm>
+						<PinX Unit="IN">4.194999999999999</PinX>
+						<PinY Unit="IN">1.634156250000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{D6B4B30B-6721-4870-AB9C-4BBF8F256654}" Name="Rectangle.28" NameU="Rectangle.28" Master="4">
+					<Text>Google
+media
+Search</Text>
+					<XForm>
+						<PinX Unit="IN">2.980000000000000</PinX>
+						<PinY Unit="IN">7.449999999999998</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{9B9574A4-73CB-45D5-93FE-EBADD28A3BFD}" Name="Sheet.29" NameU="Sheet.29">
+					<Text>Media Catalog</Text>
+					<XForm>
+						<PinX Unit="IN">3.280000000000000</PinX>
+						<PinY Unit="IN">5.350000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{78697649-DF11-4D22-9838-A76F73852B37}" Name="Sheet.30" NameU="Sheet.30">
+					<Text>Message Dialog</Text>
+					<XForm>
+						<PinX Unit="IN">8.430000000000000</PinX>
+						<PinY Unit="IN">5.130000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{BF3ED2DB-B19D-43E3-B21C-8C61CD53B3DA}" Name="Line-curve connector.31" NameU="Line-curve connector.31" Master="5">
+					<XForm>
+						<PinX Unit="IN">2.940000000000000</PinX>
+						<PinY Unit="IN">6.799999999999999</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="33" UniqueID="{58377463-1B57-40F5-BB17-04DEBA9FF79A}" Name="Line-curve connector.33" NameU="Line-curve connector.33" Master="5">
+					<XForm>
+						<PinX Unit="IN">2.339999999999999</PinX>
+						<PinY Unit="IN">7.449999999999999</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="34" UniqueID="{591B9CCF-26C8-482C-A7DB-124C062FA6D6}" Name="Rectangle.34" NameU="Rectangle.34" Master="4">
+					<Text>Enhancements</Text>
+					<XForm>
+						<PinX Unit="IN">1.155000000000001</PinX>
+						<PinY Unit="IN">1.703611111111111</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{8392E5BD-D090-41F1-A5BD-B4B100BCC0F8}" Name="Rectangle.35" NameU="Rectangle.35" Master="4">
+					<Text>Current</Text>
+					<XForm>
+						<PinX Unit="IN">1.150000000000000</PinX>
+						<PinY Unit="IN">2.140000000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{07335127-BD1F-409D-A0E5-3B2FC1F85336}" Name="Rectangle.37" NameU="Rectangle.37" Master="4">
+					<Text>Rails environment</Text>
+					<XForm>
+						<PinX Unit="IN">1.160000000000000</PinX>
+						<PinY Unit="IN">1.300000000000001</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="36" UniqueID="{B4574BC2-FACB-4B9B-B8BB-21F4AAE64789}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>Overlay Player Display</Text>
+					<XForm>
+						<PinX Unit="IN">5.840000000000000</PinX>
+						<PinY Unit="IN">0.510000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{36ABB9C0-6E01-4E40-A5BC-553267C4948D}" Name="Sheet.38" NameU="Sheet.38">
+					<Text>Iframe – Site Link</Text>
+					<XForm>
+						<PinX Unit="IN">5.720000000000001</PinX>
+						<PinY Unit="IN">3.220000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{ABB77886-E76A-4FA2-838B-A412FF68D0CC}" Name="Sheet.39" NameU="Sheet.39">
+					<Text>Video</Text>
+					<XForm>
+						<PinX Unit="IN">7.530000000000000</PinX>
+						<PinY Unit="IN">2.780000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{73012EC1-2F50-4385-936E-F1FDE0440014}" Name="Sheet.40" NameU="Sheet.40">
+					<Text>Image / Gallery</Text>
+					<XForm>
+						<PinX Unit="IN">8.859999999999999</PinX>
+						<PinY Unit="IN">2.290000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{80EA2457-F0C9-4DC7-B7C9-F1258B50AC6B}" Name="Sheet.41" NameU="Sheet.41">
+					<Text>Document</Text>
+					<XForm>
+						<PinX Unit="IN">3.490000000000000</PinX>
+						<PinY Unit="IN">2.600000000000000</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

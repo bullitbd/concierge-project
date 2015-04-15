@@ -1,0 +1,296 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x327d5020, pid=2636, tid=1176
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode, sharing windows-x86)
+# Problematic frame:
+# C  0x327d5020
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00387000):  JavaThread "main" [_thread_in_native, id=1176, stack(0x00840000,0x00890000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x327d5020
+
+Registers:
+EAX=0x00000000, EBX=0x00000000, ECX=0x09edbee0, EDX=0x2f55824c
+ESP=0x0088f0f8, EBP=0x00000000, ESI=0x2f55824c, EDI=0x2f5583c4
+EIP=0x327d5020, EFLAGS=0x00010246
+
+Top of Stack: (sp=0x0088f0f8)
+0x0088f0f8:   00000000 09c2e6d4 0088f128 052cb6b8
+0x0088f108:   2f55824c 0a3bc170 2f558394 0a3bc170
+0x0088f118:   052ccb54 0a3bc170 2f5581ec 2f558394
+0x0088f128:   0088f160 0537eb77 2f558394 0a3bc170
+0x0088f138:   00000000 052cb6b8 2f558394 0a3bc170
+0x0088f148:   2f5581bc 0a3bc170 052ccb54 0a3bc170
+0x0088f158:   0a3bc170 2f5581bc 0088f1a0 0535667e
+0x0088f168:   2f5581bc 0a3bc170 2f1b362c 052d005d 
+
+Instructions: (pc=0x327d5020)
+0x327d5010:   
+[error occurred during error reporting (printing registers, top of stack, instructions near pc), id 0xc0000005]
+
+Stack: [0x00840000,0x00890000],  sp=0x0088f0f8,  free space=316k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x327d5020
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+J  org.eclipse.swt.internal.win32.OS.DispatchMessageW(Lorg/eclipse/swt/internal/win32/MSG;)I
+J  org.eclipse.swt.widgets.Display.readAndDispatch()Z
+J  org.eclipse.ui.internal.Workbench.runEventLoop(Lorg/eclipse/jface/window/Window$IExceptionHandler;Lorg/eclipse/swt/widgets/Display;)V
+j  org.eclipse.ui.internal.Workbench.runUI()I+225
+j  org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/ui/application/WorkbenchAdvisor;)I+11
+j  org.eclipse.ui.PlatformUI.createAndRunWorkbench(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/ui/application/WorkbenchAdvisor;)I+2
+j  com.aptana.ide.rcp.AbstractIDEApplication.run(Ljava/lang/Object;)Ljava/lang/Object;+108
+j  com.aptana.ide.rcp.Application.run(Ljava/lang/Object;)Ljava/lang/Object;+64
+j  org.eclipse.core.internal.runtime.PlatformActivator$1.run(Ljava/lang/Object;)Ljava/lang/Object;+219
+j  org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Ljava/lang/Object;)Ljava/lang/Object;+103
+j  org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Ljava/lang/Object;)Ljava/lang/Object;+29
+j  org.eclipse.core.runtime.adaptor.EclipseStarter.run(Ljava/lang/Object;)Ljava/lang/Object;+135
+j  org.eclipse.core.runtime.adaptor.EclipseStarter.run([Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Object;+60
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+87
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+161
+j  org.eclipse.core.launcher.Main.invokeFramework([Ljava/lang/String;[Ljava/net/URL;)V+181
+j  org.eclipse.core.launcher.Main.basicRun([Ljava/lang/String;)V+107
+j  org.eclipse.core.launcher.Main.run([Ljava/lang/String;)I+4
+j  org.eclipse.core.launcher.Main.main([Ljava/lang/String;)V+10
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x05f81c00 JavaThread "Worker-13" [_thread_blocked, id=6124, stack(0x09100000,0x09150000)]
+  0x05ff1800 JavaThread "Worker-12" [_thread_blocked, id=4436, stack(0x04200000,0x04250000)]
+  0x03649400 JavaThread "Worker-11" [_thread_blocked, id=5496, stack(0x0e360000,0x0e3b0000)]
+  0x03d83800 JavaThread "Worker-10" [_thread_blocked, id=5532, stack(0x31a40000,0x31a90000)]
+  0x03f04000 JavaThread "btpool0-5" [_thread_in_native, id=5980, stack(0x0e490000,0x0e4e0000)]
+  0x03f07800 JavaThread "btpool3-4" [_thread_blocked, id=5296, stack(0x0e440000,0x0e490000)]
+  0x03f07000 JavaThread "btpool0-4" [_thread_blocked, id=4480, stack(0x0e3f0000,0x0e440000)]
+  0x03ddc400 JavaThread "Aptana: 24-hour update check" daemon [_thread_blocked, id=4816, stack(0x08a40000,0x08a90000)]
+  0x06012400 JavaThread "btpool3-2 - Acceptor0 SocketConnector@127.0.0.1:8601" [_thread_in_native, id=4612, stack(0x09a90000,0x09ae0000)]
+  0x05fa2c00 JavaThread "ContinuationBayeux-1" daemon [_thread_blocked, id=5828, stack(0x09a40000,0x09a90000)]
+  0x0607a800 JavaThread "Timer-5" daemon [_thread_blocked, id=5160, stack(0x099f0000,0x09a40000)]
+  0x05eb3c00 JavaThread "btpool3-0 - Acceptor0 SocketConnector@127.0.0.1:8501" [_thread_in_native, id=3184, stack(0x09950000,0x099a0000)]
+  0x05ea8c00 JavaThread "Timer-4" daemon [_thread_blocked, id=5484, stack(0x06fb0000,0x07000000)]
+  0x05dd0400 JavaThread "Worker-2" [_thread_blocked, id=1424, stack(0x090b0000,0x09100000)]
+  0x035c4800 JavaThread "org.eclipse.jface.text.reconciler.MonoReconciler" daemon [_thread_blocked, id=4484, stack(0x08ec0000,0x08f10000)]
+  0x035c6800 JavaThread "LongIdleFileChangedNotifier - (1000ms)" [_thread_blocked, id=4132, stack(0x08cb0000,0x08d00000)]
+  0x03f9d000 JavaThread "IdleFileChangedNotifier - (200ms)" [_thread_blocked, id=3380, stack(0x08c60000,0x08cb0000)]
+  0x034e6c00 JavaThread "Swing-Shell" daemon [_thread_blocked, id=5592, stack(0x07430000,0x07480000)]
+  0x035a9000 JavaThread "AWT-Windows" daemon [_thread_in_native, id=4544, stack(0x073e0000,0x07430000)]
+  0x035f0c00 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=5084, stack(0x07340000,0x07390000)]
+  0x05e75c00 JavaThread "ProfileManager Apply Profiles - (1000ms)" [_thread_blocked, id=5836, stack(0x070f0000,0x07140000)]
+  0x03fbf400 JavaThread "Timer-3" daemon [_thread_blocked, id=3872, stack(0x070a0000,0x070f0000)]
+  0x05dc3400 JavaThread "btpool2-1 - Acceptor0 SocketConnector@127.0.0.1:8300" [_thread_in_native, id=4140, stack(0x07050000,0x070a0000)]
+  0x05dc7800 JavaThread "btpool2-0" [_thread_blocked, id=328, stack(0x07000000,0x07050000)]
+  0x05e48400 JavaThread "Timer-1" daemon [_thread_blocked, id=2268, stack(0x06f60000,0x06fb0000)]
+  0x035e4400 JavaThread "btpool1-1 - Acceptor0 SocketConnector@127.0.0.1:8000" [_thread_in_native, id=4540, stack(0x06f10000,0x06f60000)]
+  0x05f24400 JavaThread "btpool1-0" [_thread_blocked, id=5280, stack(0x06ec0000,0x06f10000)]
+  0x03374000 JavaThread "ContinuationBayeux-0" daemon [_thread_blocked, id=5604, stack(0x06e70000,0x06ec0000)]
+  0x03609800 JavaThread "Timer-0" daemon [_thread_blocked, id=2956, stack(0x06e20000,0x06e70000)]
+  0x03372400 JavaThread "btpool0-1 - Acceptor0 SocketConnector@127.0.0.1:8500" [_thread_in_native, id=4732, stack(0x06dd0000,0x06e20000)]
+  0x031dc800 JavaThread "btpool0-0 - Acceptor0 SocketConnector@127.0.0.1:8600" [_thread_in_native, id=4844, stack(0x06d80000,0x06dd0000)]
+  0x031e1800 JavaThread "derby.rawStoreDaemon" daemon [_thread_blocked, id=5944, stack(0x05af0000,0x05b40000)]
+  0x03388800 JavaThread "derby.antiGC" daemon [_thread_blocked, id=4988, stack(0x05aa0000,0x05af0000)]
+  0x0309d400 JavaThread "CommandLineArgsServer" [_thread_in_native, id=2648, stack(0x04000000,0x04050000)]
+  0x02d25000 JavaThread "Start Level Event Dispatcher" daemon [_thread_blocked, id=4236, stack(0x03720000,0x03770000)]
+  0x03200400 JavaThread "Framework Event Dispatcher" daemon [_thread_blocked, id=6132, stack(0x036d0000,0x03720000)]
+  0x02d2d400 JavaThread "State Data Manager" daemon [_thread_blocked, id=4896, stack(0x03680000,0x036d0000)]
+  0x02cb2000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=3616, stack(0x02f60000,0x02fb0000)]
+  0x02cabc00 JavaThread "CompilerThread0" daemon [_thread_blocked, id=5424, stack(0x02f10000,0x02f60000)]
+  0x02caa400 JavaThread "Attach Listener" daemon [_thread_blocked, id=5948, stack(0x02ec0000,0x02f10000)]
+  0x02ca9000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=736, stack(0x02e70000,0x02ec0000)]
+  0x02ca0c00 JavaThread "Finalizer" daemon [_thread_blocked, id=5732, stack(0x02e20000,0x02e70000)]
+  0x02c9f800 JavaThread "Reference Handler" daemon [_thread_blocked, id=5984, stack(0x02dd0000,0x02e20000)]
+=>0x00387000 JavaThread "main" [_thread_in_native, id=1176, stack(0x00840000,0x00890000)]
+
+Other Threads:
+  0x02c9e000 VMThread [stack: 0x02d80000,0x02dd0000] [id=4416]
+  0x02cbc000 WatcherThread [stack: 0x02fb0000,0x03000000] [id=3972]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 9216K, used 511K [0x0e990000, 0x0f380000, 0x10710000)
+  eden space 8256K,   6% used [0x0e990000, 0x0ea0fe58, 0x0f1a0000)
+  from space 960K,   0% used [0x0f1a0000, 0x0f1a0000, 0x0f290000)
+  to   space 960K,   0% used [0x0f290000, 0x0f290000, 0x0f380000)
+ tenured generation   total 121024K, used 29324K [0x10710000, 0x17d40000, 0x26990000)
+   the space 121024K,  24% used [0x10710000, 0x123b32a8, 0x123b3400, 0x17d40000)
+ compacting perm gen  total 43264K, used 43067K [0x26990000, 0x293d0000, 0x2a990000)
+   the space 43264K,  99% used [0x26990000, 0x2939ef30, 0x2939f000, 0x293d0000)
+    ro space 8192K,  63% used [0x2a990000, 0x2aea3b20, 0x2aea3c00, 0x2b190000)
+    rw space 12288K,  53% used [0x2b190000, 0x2b7f7f38, 0x2b7f8000, 0x2bd90000)
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\javaw.exe
+0x7c900000 - 0x7c9b2000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c8f6000 	C:\WINDOWS\system32\kernel32.dll
+0x77dd0000 - 0x77e6b000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000 - 0x77f02000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fe0000 - 0x77ff1000 	C:\WINDOWS\system32\Secur32.dll
+0x7e410000 - 0x7e4a1000 	C:\WINDOWS\system32\USER32.dll
+0x77f10000 - 0x77f59000 	C:\WINDOWS\system32\GDI32.dll
+0x76390000 - 0x763ad000 	C:\WINDOWS\system32\IMM32.DLL
+0x7c340000 - 0x7c396000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\msvcr71.dll
+0x6d800000 - 0x6da56000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\client\jvm.dll
+0x76b40000 - 0x76b6d000 	C:\WINDOWS\system32\WINMM.dll
+0x6d280000 - 0x6d288000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\hpi.dll
+0x76bf0000 - 0x76bfb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d7b0000 - 0x6d7bc000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\java.dll
+0x6d7f0000 - 0x6d7ff000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\zip.dll
+0x6d610000 - 0x6d623000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\net.dll
+0x71ab0000 - 0x71ac7000 	C:\WINDOWS\system32\WS2_32.dll
+0x77c10000 - 0x77c68000 	C:\WINDOWS\system32\msvcrt.dll
+0x71aa0000 - 0x71aa8000 	C:\WINDOWS\system32\WS2HELP.dll
+0x6d630000 - 0x6d639000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\nio.dll
+0x71a50000 - 0x71a8f000 	C:\WINDOWS\system32\mswsock.dll
+0x662b0000 - 0x66308000 	C:\WINDOWS\system32\hnetcfg.dll
+0x71a90000 - 0x71a98000 	C:\WINDOWS\System32\wshtcpip.dll
+0x04050000 - 0x0409e000 	C:\Documents and Settings\Bob Day\Application Data\Aptana\Aptana Studio\configuration\org.eclipse.osgi\bundles\110\1\.cp\swt-win32-3345.dll
+0x774e0000 - 0x7761d000 	C:\WINDOWS\system32\ole32.dll
+0x773d0000 - 0x774d3000 	C:\WINDOWS\WinSxS\X86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\COMCTL32.dll
+0x77f60000 - 0x77fd6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x763b0000 - 0x763f9000 	C:\WINDOWS\system32\comdlg32.dll
+0x7c9c0000 - 0x7d1d7000 	C:\WINDOWS\system32\SHELL32.dll
+0x77120000 - 0x771ab000 	C:\WINDOWS\system32\OLEAUT32.dll
+0x74d90000 - 0x74dfb000 	C:\WINDOWS\system32\USP10.dll
+0x3d930000 - 0x3da16000 	C:\WINDOWS\system32\WININET.dll
+0x040b0000 - 0x040b9000 	C:\WINDOWS\system32\Normaliz.dll
+0x78130000 - 0x78263000 	C:\WINDOWS\system32\urlmon.dll
+0x3dfd0000 - 0x3e1b8000 	C:\WINDOWS\system32\iertutil.dll
+0x74720000 - 0x7476c000 	C:\WINDOWS\system32\MSCTF.dll
+0x63000000 - 0x63014000 	C:\WINDOWS\system32\SynTPFcs.dll
+0x77c00000 - 0x77c08000 	C:\WINDOWS\system32\VERSION.dll
+0x755c0000 - 0x755ee000 	C:\WINDOWS\system32\msctfime.ime
+0x5ad70000 - 0x5ada8000 	C:\WINDOWS\system32\uxtheme.dll
+0x74c80000 - 0x74cac000 	C:\WINDOWS\system32\oleacc.dll
+0x76080000 - 0x760e5000 	C:\WINDOWS\system32\MSVCP60.dll
+0x048e0000 - 0x048f4000 	C:\Documents and Settings\Bob Day\Application Data\Aptana\Aptana Studio\configuration\org.eclipse.osgi\bundles\110\1\.cp\swt-gdip-win32-3345.dll
+0x4ec50000 - 0x4edfb000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.6001.22319_x-ww_f0b4c2df\gdiplus.dll
+0x68000000 - 0x68036000 	C:\WINDOWS\system32\rsaenh.dll
+0x769c0000 - 0x76a74000 	C:\WINDOWS\system32\USERENV.dll
+0x5b860000 - 0x5b8b5000 	C:\WINDOWS\system32\netapi32.dll
+0x76f20000 - 0x76f47000 	C:\WINDOWS\system32\DNSAPI.dll
+0x76fb0000 - 0x76fb8000 	C:\WINDOWS\System32\winrnr.dll
+0x76f60000 - 0x76f8c000 	C:\WINDOWS\system32\WLDAP32.dll
+0x751d0000 - 0x751ee000 	C:\WINDOWS\system32\wshbth.dll
+0x77920000 - 0x77a13000 	C:\WINDOWS\system32\SETUPAPI.dll
+0x76fc0000 - 0x76fc6000 	C:\WINDOWS\system32\rasadhlp.dll
+0x04b70000 - 0x04e35000 	C:\WINDOWS\system32\xpsp2res.dll
+0x04b50000 - 0x04b56000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\javaxpcomglue.dll
+0x04ee0000 - 0x04f07000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\nspr4.dll
+0x71ad0000 - 0x71ad9000 	C:\WINDOWS\system32\WSOCK32.dll
+0x04f10000 - 0x04f17000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\plc4.dll
+0x04f20000 - 0x04f26000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\plds4.dll
+0x04f30000 - 0x04f6f000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\softokn3.dll
+0x04f70000 - 0x04fcb000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\nss3.dll
+0x04fd0000 - 0x04ff0000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\ssl3.dll
+0x04ff0000 - 0x0500a000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\smime3.dll
+0x05010000 - 0x05081000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\js3250.dll
+0x05090000 - 0x057af000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\xul.dll
+0x73000000 - 0x73026000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x057c0000 - 0x057c6000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\xpcom.dll
+0x76fd0000 - 0x7704f000 	C:\WINDOWS\system32\CLBCATQ.DLL
+0x77050000 - 0x77115000 	C:\WINDOWS\system32\COMRes.dll
+0x76d60000 - 0x76d79000 	C:\WINDOWS\system32\iphlpapi.dll
+0x746f0000 - 0x7471a000 	C:\WINDOWS\system32\msimtf.dll
+0x05a90000 - 0x05a98000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\components\pipboot.dll
+0x77b40000 - 0x77b62000 	C:\WINDOWS\system32\Apphelp.dll
+0x76d40000 - 0x76d58000 	C:\WINDOWS\system32\MPRAPI.dll
+0x77cc0000 - 0x77cf2000 	C:\WINDOWS\system32\ACTIVEDS.dll
+0x76e10000 - 0x76e35000 	C:\WINDOWS\system32\adsldpc.dll
+0x76b20000 - 0x76b31000 	C:\WINDOWS\system32\ATL.DLL
+0x76e80000 - 0x76e8e000 	C:\WINDOWS\system32\rtutils.dll
+0x71bf0000 - 0x71c03000 	C:\WINDOWS\system32\SAMLIB.dll
+0x07320000 - 0x0732f000 	C:\Documents and Settings\Bob Day\Application Data\Aptana\Aptana Studio\configuration\org.eclipse.osgi\bundles\153\1\.cp\os\win32\x86\core_1_0_0.dll
+0x6d000000 - 0x6d138000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\awt.dll
+0x6d220000 - 0x6d274000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\fontmanager.dll
+0x074b0000 - 0x074c7000 	C:\Documents and Settings\Bob Day\Application Data\Dropbox\bin\DropboxExt.14.dll
+0x59a60000 - 0x59b01000 	C:\WINDOWS\system32\dbghelp.dll
+0x7c3a0000 - 0x7c41b000 	C:\Documents and Settings\Bob Day\Application Data\Dropbox\bin\MSVCP71.dll
+0x49460000 - 0x4986b000 	D:\PROGRA~2\MICROS~2\Office14\GROOVEEX.DLL
+0x78520000 - 0x785c3000 	C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e\MSVCR90.dll
+0x78480000 - 0x7850e000 	C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_d495ac4e\MSVCP90.dll
+0x78e20000 - 0x78e4b000 	C:\WINDOWS\WinSxS\x86_Microsoft.VC90.ATL_1fc8b3b9a1e18e3b_9.0.30729.4148_x-ww_353599c2\ATL90.DLL
+0x07730000 - 0x07b3f000 	C:\PROGRA~1\COMMON~1\MICROS~1\OFFICE14\Cultures\office.odf
+0x07b70000 - 0x083d4000 	D:\PROGRA~2\MICROS~2\Office14\1033\GrooveIntlResource.dll
+0x77a20000 - 0x77a74000 	C:\WINDOWS\System32\cscui.dll
+0x76600000 - 0x7661d000 	C:\WINDOWS\System32\CSCDLL.dll
+0x4fdd0000 - 0x4ff76000 	C:\WINDOWS\system32\d3d9.dll
+0x08410000 - 0x08416000 	C:\WINDOWS\system32\d3d8thk.dll
+0x76980000 - 0x76988000 	C:\WINDOWS\system32\LINKINFO.dll
+0x76990000 - 0x769b5000 	C:\WINDOWS\system32\ntshrui.dll
+0x76380000 - 0x76385000 	C:\WINDOWS\system32\msimg32.dll
+0x08af0000 - 0x08af8000 	C:\Documents and Settings\Bob Day\Application Data\Aptana\Aptana Studio\configuration\org.eclipse.osgi\bundles\76\1\.cp\os\win32\x86\localfile_1_0_0.dll
+0x75cf0000 - 0x75d81000 	C:\WINDOWS\system32\mlang.dll
+0x6d790000 - 0x6d798000 	C:\Program Files\Aptana\Aptana Studio\jre\bin\sunmscapi.dll
+0x77a80000 - 0x77b15000 	C:\WINDOWS\system32\CRYPT32.dll
+0x77b20000 - 0x77b32000 	C:\WINDOWS\system32\MSASN1.dll
+0x09ae0000 - 0x09b18000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\components\pipnss.dll
+0x09bc0000 - 0x09bf1000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\freebl3.dll
+0x08c10000 - 0x08c4e000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\nssckbi.dll
+0x0e3b0000 - 0x0e3e1000 	C:\Program Files\Aptana\Aptana Studio\plugins\org.mozilla.xulrunner.win32.win32.x86_1.8.1.3-20070404\xulrunner\components\transformiix.dll
+0x3e1c0000 - 0x3ec54000 	C:\WINDOWS\system32\ieframe.dll
+0x7e720000 - 0x7e7d0000 	C:\WINDOWS\system32\SXS.DLL
+0x3fde0000 - 0x40221000 	C:\WINDOWS\system32\msi.dll
+0x76ee0000 - 0x76f1c000 	C:\WINDOWS\system32\RASAPI32.dll
+0x76e90000 - 0x76ea2000 	C:\WINDOWS\system32\rasman.dll
+0x76eb0000 - 0x76edf000 	C:\WINDOWS\system32\TAPI32.dll
+0x77c70000 - 0x77c95000 	C:\WINDOWS\system32\msv1_0.dll
+0x76790000 - 0x7679c000 	C:\WINDOWS\system32\cryptdll.dll
+0x722b0000 - 0x722b5000 	C:\WINDOWS\system32\sensapi.dll
+0x3cea0000 - 0x3d450000 	C:\WINDOWS\system32\mshtml.dll
+0x0e950000 - 0x0e979000 	C:\WINDOWS\system32\msls31.dll
+0x04910000 - 0x0491c000 	C:\WINDOWS\system32\ImgUtil.dll
+0x0e980000 - 0x0e98e000 	C:\WINDOWS\system32\pngfilt.dll
+0x76c30000 - 0x76c5e000 	C:\WINDOWS\system32\WINTRUST.dll
+0x76c90000 - 0x76cb8000 	C:\WINDOWS\system32\IMAGEHLP.dll
+0x72d20000 - 0x72d29000 	C:\WINDOWS\system32\wdmaud.drv
+0x72d10000 - 0x72d18000 	C:\WINDOWS\system32\msacm32.drv
+0x77be0000 - 0x77bf5000 	C:\WINDOWS\system32\MSACM32.dll
+0x77bd0000 - 0x77bd7000 	C:\WINDOWS\system32\midimap.dll
+
+VM Arguments:
+jvm_args: -Xmx384M -Xms128M -Djava.awt.headless=true 
+java_command: C:\Program Files\Aptana\Aptana Studio\startup.jar -os win32 -ws win32 -arch x86 -launcher C:\Program Files\Aptana\Aptana Studio\AptanaStudio.exe -name Aptana -showsplash 600 -exitdata 1768_8c C:\Program Files\Aptana\Aptana Studio\AptanaStudio.exe Studio C:\Documents and Settings\Bob Day\My Documents\My Dropbox\Projects\Rocket21\Concierge\floatbox_Trial\floatbox_trial.xhtml -vm C:\Program Files\Aptana\Aptana Studio\jre\bin\javaw.exe -vmargs -Xmx384M -Xms128M -Djava.awt.headless=true -jar C:\Program Files\Aptana\Aptana Studio\startup.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files\Java\jre6\lib\ext\QTJava.zip
+PATH=C:\Program Files\Common Files\ArcSoft\Bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Intel\Wireless\Bin\;C:\Program Files\Diskeeper Corporation\Diskeeper\;C:\Program Files\Common Files\Lenovo;C:\Program Files\Lenovo\Client Security Solution;C:\Program Files\e\cmd;C:\InstantRails\ruby\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\9.0\DLLShared\;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Pinnacle\Shared Files\;C:\Program Files\Pinnacle\Shared Files\Filter\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\
+USERNAME=Bob Day
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2097151k(1273084k free), swap 4194303k(3226032k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-b33), built on Sep 26 2008 01:00:43 by "java_re" with MS VC++ 7.1
+
+time: Mon Jun 20 12:11:38 2011
+elapsed time: 626 seconds
+

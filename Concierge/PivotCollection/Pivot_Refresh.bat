@@ -1,0 +1,1 @@
+pauthor.exe /source excel Pivot_Concierge_Content.xlsx /target deepzoom Pivot_Concierge_Content.cxml >Pauthor_log.txt

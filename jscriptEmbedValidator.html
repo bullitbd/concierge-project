@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+
+<link rel="stylesheet" type="text/css" href="/includes/floatbox/floatbox.css" />
+<script type="text/javascript" src="/includes/floatbox/floatbox.js"></script>
+
+<script type="text/javascript">
+</script> 
+
+<style type="text/css">
+</style>
+<script type="text/javascript">
+	var vidHeight;
+	var vidWidth;
+	var vidURI;
+	function getObject(theVid) {
+		width = theVid.getAttribute('width'),
+        height = theVid.getAttribute('height'),
+        params = theVid.getElementsByTagName('param'),
+        i = params.length;
+    while (i--) {
+        var param = params[i],
+            name = param.getAttribute('name'),
+            value = param.getAttribute('value');
+        if (name === 'movie') movie = value;
+        if (name === 'flashvars') flashvars = value;
+    }
+    if (movie) {
+        if (flashvars) movie += (movie.indexOf('?') > 0 ? '&' : '?') + flashvars;
+        document.getElementById('content').innerHTML = 'src="' + vidURI + 'width:' + vidWidth + 'height:' + vidHeight;
+	}
+	}
+	function getScript() {
+		
+	}
+	function getIframe() {
+		
+	}
+</script>
+<script type="text/javascript">
+function getEmbedVals(){
+	var theVid = document.getElementById('theVid');
+	theVid.innerHtml = document.getElementById(content).innerHTML
+	//ok - now we have an element - div id'd 'theVid'; its inner is the content.  First, need to find out a few things:
+	var theObj = theVid.firstChild;
+	var tag = theObj.tagName;
+	
+	switch (tag.toLowerCase) {
+		case 'object':
+			getObject(theObj);
+			break;
+		case 'script':
+			getScript(theObj);
+			break;
+		case 'iframe':
+			getIframe(theObj);
+			break;
+	}
+}
+</script>
+</head> 
+<body>
+<div id="content">
+<object id="theVid" width="446" height="326"><param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always"/><param name="wmode" value="transparent"></param><param name="bgColor" value="#ffffff"></param> <param name="flashvars" value="vu=http://video.ted.com/talks/dynamic/DrHawaAbdiandDrDeqoMohamed_2010W-medium.flv&su=http://images.ted.com/images/ted/tedindex/embed-posters/Dr_Hawa_and_MohamedAbdi-2010W.embed_thumbnail.jpg&vw=432&vh=240&ap=0&ti=1071&lang=eng&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mother_and_daughter_doctor_heroes_hawa_abdi_deqo_mohame;year=2010;theme=women_reshaping_the_world;theme=medicine_without_borders;theme=celebrating_tedwomen;event=TEDWomen;tag=Global+Issues;tag=Science;tag=community;tag=health;tag=medicine;tag=politics;tag=women;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" /><embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="446" height="326" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talks/dynamic/DrHawaAbdiandDrDeqoMohamed_2010W-medium.flv&su=http://images.ted.com/images/ted/tedindex/embed-posters/Dr_Hawa_and_MohamedAbdi-2010W.embed_thumbnail.jpg&vw=432&vh=240&ap=0&ti=1071&lang=eng&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mother_and_daughter_doctor_heroes_hawa_abdi_deqo_mohame;year=2010;theme=women_reshaping_the_world;theme=medicine_without_borders;theme=celebrating_tedwomen;event=TEDWomen;tag=Global+Issues;tag=Science;tag=community;tag=health;tag=medicine;tag=politics;tag=women;"></embed></object>
+</div>
+
+<script type="text/javascript">
+    var theVid = fb$('theVid'),
+        width = theVid.getAttribute('width'),
+        height = theVid.getAttribute('height'),
+        params = theVid.getElementsByTagName('param'),
+        i = params.length;
+    while (i--) {
+        var param = params[i],
+            name = param.getAttribute('name'),
+            value = param.getAttribute('value');
+        if (name === 'movie') movie = value;
+        if (name === 'flashvars') flashvars = value;
+    }
+    if (movie) {
+        if (flashvars) movie += (movie.indexOf('?') > 0 ? '&' : '?') + flashvars;
+        document.write('<p><a href="' + movie + '" class="floatbox" data-fb-options="width:' + width + ' height:' + height + '">Ted Talks!</a></p>');
+    }
+</script>
+
+
+
+<div id="theVid" style="display:none"></div>
+</body>
+
+</html>
